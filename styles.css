@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #A50034; /* Vermelho do Flamengo */
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; /* Links em branco */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+.evento-descricao h2, .evento-descricao h3 {
+    color: #A50034; /* Títulos em vermelho */
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.galeria-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Localização */
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #A50034; /* Vermelho do Flamengo */
+    color: white;
+    padding: 10px 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
